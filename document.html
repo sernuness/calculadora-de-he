@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <img src="undraw_projections_re_ulc6.svg" alt="imagem de fundo">
+        <div id="titulow">
+            <h1>Calculadora de Hora Extra</h1>
+        </div>
+        <div id="salary">
+            <h3>Salário</h3>
+                <div id="salaryin">
+                    <input type="value" placeholder="R$ 3.600,00" id="salaryin">
+                </div>
+                    <label>
+                        Salário bruto é aquele registrado na CTPS, sem considerar os descontos legais (INSS e IR).
+                    </label>
+
+        </div>
+        <div id="cargah">
+            <h3>Carga horária mensal</h3>
+                <div id="cargahin">
+                    <input type="value" placeholder="150" id="cargahin">
+                </div>
+                    <label>
+                        Informar a carga horária mensal de trabalho (se você não souber, basta multiplicar a quantidade de horas trabalhadas na semana por 5. Ex: 44h semanais equivalem a 220h mensais).
+                    </label>
+        </div>
+        <div id="porcent">
+            <h3>% da hora extra</h3>
+                <div id="porcentin">
+                    <input type="value" placeholder="50" id="porcentin">
+                </div>
+                    <label>
+                        Informar o % de Hora Extra que você quer calcular. Em dias normais o % mínimo é 50% e em Domingos e Feriados, 100%.
+                    </label>
+        </div>
+        <div id="horase">
+            <h3>Quantidade de horas extras</h3>
+                <div id="horasein">
+                    <input type="value" placeholder="32:00" id="horasein">
+                </div>
+                    <label>
+                        Informar a quantidade de Hora Extra que você quer calcular no formato hh:mm (horas:minutos).
+                    </label>
+        </div>
+        <div id="calc">
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div id="res">
+            Aqui aparecerá o resultado
+        </div>
+    </section>
+    
+</body>
+</html>
