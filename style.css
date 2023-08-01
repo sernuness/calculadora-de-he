@@ -20,10 +20,67 @@ body {
     display: flex;
     align-items: center;
     gap: 3.5rem;
+    padding-right: 50px;
 
+}
+
+#calculate {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 2rem;
+    color: #f8fafc;
+    background-color: #262626;
+    border-radius: 8px;
+}
+
+#salaryin {
+    width: 600px;
+}
+
+#cargahin {
+    width: 600px;
+}
+
+
+#porcentin {
+    width: 600px;
+}
+
+#horasein {
+    width: 600px;
 }
 
 #img img {
     width: 32rem;
+    padding-left: 25%;
 
+}
+
+#calc {
+    background-color: #18181b;
+    color: white;
+
+    #calculateb {
+        width: 600px;
+        height: 50px;
+        font: bold 15pt Poppins;
+    }
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font: bold 9pt Poppins;
+
+    .labels {
+        font: normal 7pt Poppins;
+    }
+
+}
+
+#titulow {
+    text-align: center;
 }
