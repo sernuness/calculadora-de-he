@@ -7,5 +7,7 @@ function calcular() {
     porc = parseInt(porc.value)
     var horae = document.querySelector('#horasein')
     horae = parseInt(horae.value)
-    window.alert(`TESTE:\n Os valores inseridos são: ${salary}; ${carg}; ${porc}, ${horae}!`)
+    if (salary <= 0 || carg <= 0 || porc <= 0 || horae <= 0) {
+        window.alert('Está faltando alguma informação, por favor verifique!')
+    }
 }
