@@ -12,7 +12,7 @@ function calcular() {
     } else {
         var hour = salary / carg
         var p = porc / 100
-        var h = horae * 60 // preciso entender como converter uma hora em minutos
+        var h = horae
         window.alert(`teste ${hour}, ${p}, ${h}`)
     }
 }
