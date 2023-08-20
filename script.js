@@ -13,6 +13,8 @@ function calcular() {
         var hour = salary / carg
         var p = porc / 100
         var h = horae
-        window.alert(`teste ${hour}, ${p}, ${h}`)
+        var result = hour * h + (hour * h * p)
+        var resultrs = result.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
+        res.innerHTML = `O valor aproximado a ser recebido é de ${resultrs}`
     }
 }
